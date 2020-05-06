@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+@import '../../text.scss';
+
+.Error {
+  & input,
+  .ant-select-selector {
+    border-color: $red !important;
+  }
+}
+.Labeled-Container {
+  display: flex;
+  flex-direction: column;
+  .Labeled-title {
+    padding-bottom: 5px;
+  }
+  .Labeled-error {
+    margin-top: 3px;
+    color: $red;
+  }
+}
